@@ -59,8 +59,4 @@ def add_bg_from_url():
 
 add_bg_from_url()
 
-m = st.markdown(""" <style> div.stCheckbox > checkbox { 
-                    background-color: rgb(204, 49, 49); } 
-                    </style>""", unsafe_allow_html=True)
 
-b = st.checkbox("ghj")
